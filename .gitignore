@@ -3,24 +3,34 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-venv/
 *.egg-info/
 .eggs/
 dist/
 build/
 
+# Virtual environments
+venv/
+venv312/
+Backend/venv312/
+Backend/venv/
+
 # Environment variables
 .env
 *.env
 
-# ML model files (too large for GitHub)
+# ML model files
 *.pkl
 *.joblib
-backend/app/ml/diabetes.csv
+Backend/app/ml/diabetes.csv
 
 # Node
 node_modules/
+Frontend/node_modules/
+
+# Build output
 dist/
+
+# OS
 .DS_Store
 
 # IDE
