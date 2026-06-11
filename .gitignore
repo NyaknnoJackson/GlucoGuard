@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+
+# ML model files (too large for GitHub)
+*.pkl
+*.joblib
+backend/app/ml/diabetes.csv
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
