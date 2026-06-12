@@ -171,3 +171,7 @@ BSc Biochemistry | Data Analyst | Health Tech
 ## 📄 License
 
 MIT License — free to use and modify with attribution.
+
+## 🌐 Live Demo
+**App:** https://gluco-guard-eight.vercel.app  
+**API Docs:** https://glucoguard-production-c493.up.railway.app/docs
