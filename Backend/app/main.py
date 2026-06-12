@@ -22,7 +22,11 @@ app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "https://glucoguard.vercel.app"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://gluco-guard-eight.vercel.app",
+        "https://gluco-guard-ej8mj0mmf-nyaknno-jackson-s-projects.vercel.app"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
